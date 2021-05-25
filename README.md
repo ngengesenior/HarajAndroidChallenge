@@ -20,6 +20,18 @@ Second, a screen that displays the information of a particular Post upon click e
 
 The share button should open up Android's native share sheet to share the title of the Post with other apps.
 
+
+## Stack Used
+I made use of MVVM pattern, making use of LiveData, used Glide for loading images from URLs. I also made use of DataBinding
+to avoid findViewById calls.
+
+I also went further to make use of [Hilt](https://developer.android.com/training/dependency-injection/hilt-android#hilt-and-dagger) for dependency injection
+
+The MainActivity observes LiveData from the ViewModel and the recyclerview is updated
+
+## Tests written
+The test in the instrumentation tests folder tests the repository to ensure that data is returned from the json file
+
 ## Evaluation
 
 Your work will be evaluated upon the following:
