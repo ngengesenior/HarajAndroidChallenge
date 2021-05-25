@@ -1,12 +1,11 @@
 ## Haraj Challenge
 Welcome to Haraj challenge!
 
-In this repository you will find a sample app ready for implementation. 
-
-You will find icons and a json file containing the data you'll need to complete this challenge.
+In this repository you will find my implementation of the Haraj challenge
 
 
-## Your Mission
+
+## My Mission
 
 Create a functional app with two screens to display information about Posts from Haraj website.
 
@@ -34,7 +33,7 @@ The test in the instrumentation tests folder tests the repository to ensure that
 
 ## Evaluation
 
-Your work will be evaluated upon the following:
+My work will be evaluated upon the following:
 - Following common design patterns (preferably MVVM).
 - Clean and testable code.
 - Lightweight UI (avoid nested views)
